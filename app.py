@@ -1,53 +1,54 @@
-import streamlit as st
+# # import streamlit as st
+# import minha_funcao as ms
 
-# 2
+# import streamlit as st
 
-st.title('teste')
+# st.title('titulo')
 
-n1 = st.number_input('peso:')
-n2 = st.number_input('altura:', value = 0.1)
+# ms.soma(10,20)
+# ms.soma(200,500)
 
-imc  =  n1/(n2**2)
+# # estrutura de dados
+# # espaço na memória da máquina
 
-if st.button('calcular IMC'):
-    if imc:
-        st.success(imc)
-# -----------------------------------------
-
-# 3 
-
-# formulário 
-
-st.caption('CADASTRO SIMPLES')
-
-nome = st.text_input('Nome: ')
-idade = st.number_input('Idade: ')
-email = st.text_input('E-mail: ')
-altura = st.number_input('Altura: ')
-
-if st.button('Cadsatrar'):
-    st.success('Pessoa cadastrada')
+# variavel   =  10
+# lista  =  [1,2,3]
+# dicionario =  {'a':10, 'b':20}
+# conjuntos =  {10,20,303,30}
+# tupla = (10,20,30,30)
 
 
-# 4
+# # estutra de fluxo de controle 
+# # palavra_reserva condição
 
-# Tabuada 
+# if 10 >2:
+#     print('é maior')
 
-numero =  st.number_input('numero: ')
+# for i in range(10):
+#     print(i)
+
+# while 10 < 1:
+#     print('faça')    
+
+# # try :
+
+# # funções 
+# # palavras ()
+# # cria -  def nome ():
+# # Ação 
+# # função são nativas da lingugame 
+
+# # print()
+# # len()
+# # input()
+# # sum()
+# # ....
 
 
-if st.button('Calcular:'):
-    for x in range(0,11):
-        calculo = x * numero
-        # st.write(x , 'x', numero, '=', calculo)
-        st.write(f'{x} X {numero} = {calculo}')
-    
+# def nome():
+#     print('teste')
 
-   
-    
-
-
-
+# nome()
 
 
 
