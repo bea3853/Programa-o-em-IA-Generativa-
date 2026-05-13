@@ -1,0 +1,52 @@
+criação das pastas
+
+mkdir "Ambiente"
+type nul > "Ambiente/info.txt"
+
+mkdir "Capacidades"
+type nul > "Capacidades/info.txt"
+
+mkdir "Como criar um README"
+type nul > "Como criar um README/info.txt"
+
+mkdir "Preparação"
+type nul > "Preparação/info.txt"
+
+mkdir "AULA 1 - Inteligência Artificial"
+type nul > "AULA 1 - Inteligência Artificial/info.txt"
+
+mkdir "AULA 2 - Aprendizado de Máquina"
+type nul > "AULA 2 - Aprendizado de Máquina/info.txt"
+
+mkdir "AULA 3 - Aprendizado de Máquina"
+type nul > "AULA 3 - Aprendizado de Máquina/info.txt"
+
+mkdir "AULA 4 - Redes Neurais Artificiais"
+type nul > "AULA 4 - Redes Neurais Artificiais/info.txt"
+
+mkdir "AULA 5 - Redes Neurais Artificiais"
+type nul > "AULA 5 - Redes Neurais Artificiais/info.txt"
+
+mkdir "AULA 6 - Redes Neurais Artificiais"
+type nul > "AULA 6 - Redes Neurais Artificiais/info.txt"
+
+mkdir "AULA 7 - Processamento de Linguagem Natural"
+type nul > "AULA 7 - Processamento de Linguagem Natural/info.txt"
+
+mkdir "AULA 8 - Processamento de Linguagem Natural"
+type nul > "AULA 8 - Processamento de Linguagem Natural/info.txt"
+
+mkdir "AULA 9 - Visão Computacional"
+type nul > "AULA 9 - Visão Computacional/info.txt"
+
+mkdir "AULA 10 - Visão Computacional"
+type nul > "AULA 10 - Visão Computacional/info.txt"
+
+mkdir "AULA 11 - Visão Computacional"
+type nul > "AULA 11 - Visão Computacional/info.txt"
+
+mkdir "AULA 12 - Modelos Personalizados"
+type nul > "AULA 12 - Modelos Personalizados/info.txt"
+
+mkdir "AULA 13 - Modelos Personalizados"
+type nul > "AULA 13 - Modelos Personalizados/info.txt"
