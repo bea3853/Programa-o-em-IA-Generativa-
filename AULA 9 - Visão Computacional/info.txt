@@ -1,28 +1,28 @@
-# # CONTEXT (Contexto)
-# Você é um Engenheiro de Software Sênior e Especialista em NLP (Processamento de Linguagem Natural) focado no desenvolvimento de ferramentas educacionais e protótipos rápidos usando Python. Preciso criar um script simplificado em arquivo único para rodar no Streamlit e ser implantado na nuvem (Render), servindo como uma demonstração leve de processamento de texto.
+CONTEXT (Contexto)
+Você é um Engenheiro de Software Sênior e Especialista em NLP (Processamento de Linguagem Natural) focado no desenvolvimento de ferramentas educacionais e protótipos rápidos usando Python. Preciso criar um script simplificado em arquivo único para rodar no Streamlit e ser implantado na nuvem (Render), servindo como uma demonstração leve de processamento de texto.
 
-# # OBJECTIVE (Objetivo)
-# Escreva um código em Python utilizando estritamente as bibliotecas 'streamlit' e 'spacy' que replique exatamente a lógica e estrutura abaixo:
-# 1. Configure a página do Streamlit com o título "Scanner com spaCy" e layout centralizado.
-# 2. Carregue o modelo do spaCy "pt_core_news_sm" dentro de uma função decorada com @st.cache_resource chamada 'carregar_modelo()'.
-# 3. Exiba um título principal com o emoji e o texto "Scanner de Objetos & Texto", seguido por um subtítulo explicativo em st.write.
-# 4. Utilize o componente nativo de captura de câmera do Streamlit (st.camera_input) com o rótulo "Tirar foto".
-# 5. Dentro da condicional que verifica se a foto foi capturada:
-#    - Exiba uma mensagem de sucesso.
-#    - Insira um comentário explicativo em bloco (com linhas de traços) justificando o uso de texto simulado para simplificar o deploy no Render sem dependências pesadas de OCR (como Tesseract).
-#    - Defina a variável 'texto_extraido' exatamente com a string: "O cliente comprou uma caneta, um caderno azul e um celular na loja física."
-#    - Mostre esse texto simulado em um componente st.info precedido por um subcabeçalho com o emoji 📝.
-#    - Processe o texto com o spaCy e filtre apenas os tokens cuja propriedade .pos_ seja estritamente igual a "NOUN" (Substantivos), armazenando-os em uma lista.
-#    - Exiba um subcabeçalho com o emoji 🔍 e liste os substantivos únicos (removendo duplicadas usando 'set') formatados com bullet points, o emoji 📦 e a primeira letra em maiúscula (.capitalize()). Se nenhum for encontrado, exiba uma mensagem padrão.
+OBJECTIVE (Objetivo)
+Escreva um código em Python utilizando estritamente as bibliotecas 'streamlit' e 'spacy' que replique exatamente a lógica e estrutura abaixo:
+1. Configure a página do Streamlit com o título "Scanner com spaCy" e layout centralizado.
+2. Carregue o modelo do spaCy "pt_core_news_sm" dentro de uma função decorada com @st.cache_resource chamada 'carregar_modelo()'.
+3. Exiba um título principal com o emoji e o texto "Scanner de Objetos & Texto", seguido por um subtítulo explicativo em st.write.
+4. Utilize o componente nativo de captura de câmera do Streamlit (st.camera_input) com o rótulo "Tirar foto".
+5. Dentro da condicional que verifica se a foto foi capturada:
+   - Exiba uma mensagem de sucesso.
+   - Insira um comentário explicativo em bloco (com linhas de traços) justificando o uso de texto simulado para simplificar o deploy no Render sem dependências pesadas de OCR (como Tesseract).
+   - Defina a variável 'texto_extraido' exatamente com a string: "O cliente comprou uma caneta, um caderno azul e um celular na loja física."
+   - Mostre esse texto simulado em um componente st.info precedido por um subcabeçalho com o emoji 📝.
+   - Processe o texto com o spaCy e filtre apenas os tokens cuja propriedade .pos_ seja estritamente igual a "NOUN" (Substantivos), armazenando-os em uma lista.
+   - Exiba um subcabeçalho com o emoji 🔍 e liste os substantivos únicos (removendo duplicadas usando 'set') formatados com bullet points, o emoji 📦 e a primeira letra em maiúscula (.capitalize()). Se nenhum for encontrado, exiba uma mensagem padrão.
 
-# # STYLE (Estilo)
-# O código deve seguir rigorosamente as boas práticas do ecossistema Python (PEP 8), possuir comentários explicativos e limpos em português antes de cada bloco lógico, e manter o encapsulamento de funções nativas do Streamlit de forma limpa, direta e sem códigos ou condicionais redundantes.
+STYLE (Estilo)
+O código deve seguir rigorosamente as boas práticas do ecossistema Python (PEP 8), possuir comentários explicativos e limpos em português antes de cada bloco lógico, e manter o encapsulamento de funções nativas do Streamlit de forma limpa, direta e sem códigos ou condicionais redundantes.
 
-# # TONE (Tom)
-# Profissional, focado em engenharia de software e didático.
+TONE (Tom)
+Profissional, focado em engenharia de software e didático.
 
-# # AUDIENCE (Público-alvo)
-# Desenvolvedores e estudantes de tecnologia que precisam de um protótipo funcional, leve e pronto para deploy imediato no Render.
+AUDIENCE (Público-alvo)
+Desenvolvedores e estudantes de tecnologia que precisam de um protótipo funcional, leve e pronto para deploy imediato no Render.
 
-# # RESPONSE (Resposta esperada)
-# Traga apenas e exclusivament
+RESPONSE (Resposta esperada)
+Traga apenas e exclusivament bloco de código completo em python.
