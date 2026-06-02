@@ -25,4 +25,4 @@ AUDIENCE (Público-alvo)
 Desenvolvedores e estudantes de tecnologia que precisam de um protótipo funcional, leve e pronto para deploy imediato no Render.
 
 RESPONSE (Resposta esperada)
-Traga apenas e exclusivament bloco de código completo em python.
+Traga apenas e exclusivamente bloco de código completo em python.
